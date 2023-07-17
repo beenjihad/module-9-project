@@ -70,11 +70,27 @@
      border: none
  }
 
- .image {
+ .image { 
      width: 850px;
      align-items: center;
      margin-top: 50px;
-
-
-
+ }
+ .banner img{
+    width: 100%;
+ }
+ @media screen and (max-width: 576px ) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+ }
+ @media screen and ( min-width: 577px ) and ( max-width: 960px ) {
+        nav{
+            flex-direction: column;
+        }
+        header{
+            padding: 20px;
+        }
  }
